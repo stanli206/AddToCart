@@ -78,7 +78,7 @@ function App() {
 
       {isCartOpen && (
         <div className="fixed inset-0 bg-black/50 backdrop-blur-md flex justify-center items-center">
-          <div className="bg-white p-6 rounded-lg shadow-lg w-1/2 max-h-[80vh] overflow-y-auto">
+          <div className="bg-white p-6 rounded-lg shadow-lg w-1/2 max-h-[80vh]  overflow-y-auto">
             <h2 className="text-2xl font-bold mb-4">Shopping Cart</h2>
             {cart.length === 0 ? (
               <p>Your cart is empty.</p>

@@ -8,7 +8,7 @@ function Categories({ title, products, addToCart }) {
       {products.length > 0 ? (
         <Product products={products} addToCart={addToCart} />
       ) : (
-        <p className="text-gray-500">No products available in this category.</p>
+        <p className="text-gray-500"></p>
       )}
     </div>
   );
