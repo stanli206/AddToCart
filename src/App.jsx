@@ -14,7 +14,7 @@ function App() {
   //fetch api
   useEffect(() => {
     axios
-      .get("https://fakestoreapi.com/products")
+      .get("https://fakestoreapi.com/products")//fack api
       .then((response) => setProducts(response.data))
       .catch((error) => console.error("Error fetching products:", error));
   }, []);
